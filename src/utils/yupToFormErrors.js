@@ -12,6 +12,5 @@ export function yupToFormErrors(err, refs) {
     refs[firstErrorField].current.focus()
   }
 
-
   return errorObj
 }
